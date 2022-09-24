@@ -55,5 +55,9 @@ int main()
         {
             ofile << firstArray[i] << " ";
         }
+        ifile.close();
+        ofile.close();
+        delete[] firstArray;
+        delete[] secondArray;
     }
 }
